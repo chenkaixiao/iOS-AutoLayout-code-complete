@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD241CA1BEB2D6900D2D5CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD241C91BEB2D6900D2D5CF /* main.m */; };
+		DAD241CD1BEB2D6900D2D5CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD241CC1BEB2D6900D2D5CF /* AppDelegate.m */; };
+		DAD241D01BEB2D6900D2D5CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD241CF1BEB2D6900D2D5CF /* ViewController.m */; };
+		DAD241D31BEB2D6900D2D5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD241D11BEB2D6900D2D5CF /* Main.storyboard */; };
+		DAD241D51BEB2D6900D2D5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD241D41BEB2D6900D2D5CF /* Assets.xcassets */; };
+		DAD241D81BEB2D6900D2D5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD241D61BEB2D6900D2D5CF /* LaunchScreen.storyboard */; };
+		DAD241E31BEB2D6A00D2D5CF /* iOS_AutoLayout______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD241E21BEB2D6A00D2D5CF /* iOS_AutoLayout______Tests.m */; };
+		DAD241EE1BEB2D6A00D2D5CF /* iOS_AutoLayout______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD241ED1BEB2D6A00D2D5CF /* iOS_AutoLayout______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD241DF1BEB2D6A00D2D5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD241BD1BEB2D6900D2D5CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD241C41BEB2D6900D2D5CF;
+			remoteInfo = "iOS-AutoLayout(代码实现)";
+		};
+		DAD241EA1BEB2D6A00D2D5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD241BD1BEB2D6900D2D5CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD241C41BEB2D6900D2D5CF;
+			remoteInfo = "iOS-AutoLayout(代码实现)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD241C51BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-AutoLayout(代码实现).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD241C91BEB2D6900D2D5CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD241CB1BEB2D6900D2D5CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD241CC1BEB2D6900D2D5CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD241CE1BEB2D6900D2D5CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAD241CF1BEB2D6900D2D5CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAD241D21BEB2D6900D2D5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD241D41BEB2D6900D2D5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD241D71BEB2D6900D2D5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD241D91BEB2D6900D2D5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD241DE1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AutoLayout(代码实现)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD241E21BEB2D6A00D2D5CF /* iOS_AutoLayout______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_AutoLayout______Tests.m"; sourceTree = "<group>"; };
+		DAD241E41BEB2D6A00D2D5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD241E91BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AutoLayout(代码实现)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD241ED1BEB2D6A00D2D5CF /* iOS_AutoLayout______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_AutoLayout______UITests.m"; sourceTree = "<group>"; };
+		DAD241EF1BEB2D6A00D2D5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD241C21BEB2D6900D2D5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD241DB1BEB2D6A00D2D5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD241E61BEB2D6A00D2D5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD241BC1BEB2D6900D2D5CF = {
+			isa = PBXGroup;
+			children = (
+				DAD241C71BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现) */,
+				DAD241E11BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests */,
+				DAD241EC1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests */,
+				DAD241C61BEB2D6900D2D5CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD241C61BEB2D6900D2D5CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD241C51BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现).app */,
+				DAD241DE1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests.xctest */,
+				DAD241E91BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD241C71BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现) */ = {
+			isa = PBXGroup;
+			children = (
+				DAD241CB1BEB2D6900D2D5CF /* AppDelegate.h */,
+				DAD241CC1BEB2D6900D2D5CF /* AppDelegate.m */,
+				DAD241CE1BEB2D6900D2D5CF /* ViewController.h */,
+				DAD241CF1BEB2D6900D2D5CF /* ViewController.m */,
+				DAD241D11BEB2D6900D2D5CF /* Main.storyboard */,
+				DAD241D41BEB2D6900D2D5CF /* Assets.xcassets */,
+				DAD241D61BEB2D6900D2D5CF /* LaunchScreen.storyboard */,
+				DAD241D91BEB2D6900D2D5CF /* Info.plist */,
+				DAD241C81BEB2D6900D2D5CF /* Supporting Files */,
+			);
+			path = "iOS-AutoLayout(代码实现)";
+			sourceTree = "<group>";
+		};
+		DAD241C81BEB2D6900D2D5CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD241C91BEB2D6900D2D5CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD241E11BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD241E21BEB2D6A00D2D5CF /* iOS_AutoLayout______Tests.m */,
+				DAD241E41BEB2D6A00D2D5CF /* Info.plist */,
+			);
+			path = "iOS-AutoLayout(代码实现)Tests";
+			sourceTree = "<group>";
+		};
+		DAD241EC1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD241ED1BEB2D6A00D2D5CF /* iOS_AutoLayout______UITests.m */,
+				DAD241EF1BEB2D6A00D2D5CF /* Info.plist */,
+			);
+			path = "iOS-AutoLayout(代码实现)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD241C41BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD241F21BEB2D6A00D2D5CF /* Build configuration list for PBXNativeTarget "iOS-AutoLayout(代码实现)" */;
+			buildPhases = (
+				DAD241C11BEB2D6900D2D5CF /* Sources */,
+				DAD241C21BEB2D6900D2D5CF /* Frameworks */,
+				DAD241C31BEB2D6900D2D5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-AutoLayout(代码实现)";
+			productName = "iOS-AutoLayout(代码实现)";
+			productReference = DAD241C51BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现).app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD241DD1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD241F51BEB2D6A00D2D5CF /* Build configuration list for PBXNativeTarget "iOS-AutoLayout(代码实现)Tests" */;
+			buildPhases = (
+				DAD241DA1BEB2D6A00D2D5CF /* Sources */,
+				DAD241DB1BEB2D6A00D2D5CF /* Frameworks */,
+				DAD241DC1BEB2D6A00D2D5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD241E01BEB2D6A00D2D5CF /* PBXTargetDependency */,
+			);
+			name = "iOS-AutoLayout(代码实现)Tests";
+			productName = "iOS-AutoLayout(代码实现)Tests";
+			productReference = DAD241DE1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD241E81BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD241F81BEB2D6A00D2D5CF /* Build configuration list for PBXNativeTarget "iOS-AutoLayout(代码实现)UITests" */;
+			buildPhases = (
+				DAD241E51BEB2D6A00D2D5CF /* Sources */,
+				DAD241E61BEB2D6A00D2D5CF /* Frameworks */,
+				DAD241E71BEB2D6A00D2D5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD241EB1BEB2D6A00D2D5CF /* PBXTargetDependency */,
+			);
+			name = "iOS-AutoLayout(代码实现)UITests";
+			productName = "iOS-AutoLayout(代码实现)UITests";
+			productReference = DAD241E91BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD241BD1BEB2D6900D2D5CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zerorobot;
+				TargetAttributes = {
+					DAD241C41BEB2D6900D2D5CF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DAD241DD1BEB2D6A00D2D5CF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DAD241C41BEB2D6900D2D5CF;
+					};
+					DAD241E81BEB2D6A00D2D5CF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DAD241C41BEB2D6900D2D5CF;
+					};
+				};
+			};
+			buildConfigurationList = DAD241C01BEB2D6900D2D5CF /* Build configuration list for PBXProject "iOS-AutoLayout(代码实现)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD241BC1BEB2D6900D2D5CF;
+			productRefGroup = DAD241C61BEB2D6900D2D5CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD241C41BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现) */,
+				DAD241DD1BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)Tests */,
+				DAD241E81BEB2D6A00D2D5CF /* iOS-AutoLayout(代码实现)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD241C31BEB2D6900D2D5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD241D81BEB2D6900D2D5CF /* LaunchScreen.storyboard in Resources */,
+				DAD241D51BEB2D6900D2D5CF /* Assets.xcassets in Resources */,
+				DAD241D31BEB2D6900D2D5CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD241DC1BEB2D6A00D2D5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD241E71BEB2D6A00D2D5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD241C11BEB2D6900D2D5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD241D01BEB2D6900D2D5CF /* ViewController.m in Sources */,
+				DAD241CD1BEB2D6900D2D5CF /* AppDelegate.m in Sources */,
+				DAD241CA1BEB2D6900D2D5CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD241DA1BEB2D6A00D2D5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD241E31BEB2D6A00D2D5CF /* iOS_AutoLayout______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD241E51BEB2D6A00D2D5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD241EE1BEB2D6A00D2D5CF /* iOS_AutoLayout______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD241E01BEB2D6A00D2D5CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD241C41BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现) */;
+			targetProxy = DAD241DF1BEB2D6A00D2D5CF /* PBXContainerItemProxy */;
+		};
+		DAD241EB1BEB2D6A00D2D5CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD241C41BEB2D6900D2D5CF /* iOS-AutoLayout(代码实现) */;
+			targetProxy = DAD241EA1BEB2D6A00D2D5CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD241D11BEB2D6900D2D5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD241D21BEB2D6900D2D5CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD241D61BEB2D6900D2D5CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD241D71BEB2D6900D2D5CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD241F01BEB2D6A00D2D5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAD241F11BEB2D6A00D2D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD241F31BEB2D6A00D2D5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-AutoLayout(代码实现)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZR.iOS-AutoLayout------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD241F41BEB2D6A00D2D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-AutoLayout(代码实现)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZR.iOS-AutoLayout------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD241F61BEB2D6A00D2D5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-AutoLayout(代码实现)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZR.iOS-AutoLayout------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-AutoLayout(代码实现).app/iOS-AutoLayout(代码实现)";
+			};
+			name = Debug;
+		};
+		DAD241F71BEB2D6A00D2D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-AutoLayout(代码实现)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZR.iOS-AutoLayout------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-AutoLayout(代码实现).app/iOS-AutoLayout(代码实现)";
+			};
+			name = Release;
+		};
+		DAD241F91BEB2D6A00D2D5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-AutoLayout(代码实现)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZR.iOS-AutoLayout------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-AutoLayout(代码实现)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAD241FA1BEB2D6A00D2D5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-AutoLayout(代码实现)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZR.iOS-AutoLayout------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-AutoLayout(代码实现)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD241C01BEB2D6900D2D5CF /* Build configuration list for PBXProject "iOS-AutoLayout(代码实现)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD241F01BEB2D6A00D2D5CF /* Debug */,
+				DAD241F11BEB2D6A00D2D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD241F21BEB2D6A00D2D5CF /* Build configuration list for PBXNativeTarget "iOS-AutoLayout(代码实现)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD241F31BEB2D6A00D2D5CF /* Debug */,
+				DAD241F41BEB2D6A00D2D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD241F51BEB2D6A00D2D5CF /* Build configuration list for PBXNativeTarget "iOS-AutoLayout(代码实现)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD241F61BEB2D6A00D2D5CF /* Debug */,
+				DAD241F71BEB2D6A00D2D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD241F81BEB2D6A00D2D5CF /* Build configuration list for PBXNativeTarget "iOS-AutoLayout(代码实现)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD241F91BEB2D6A00D2D5CF /* Debug */,
+				DAD241FA1BEB2D6A00D2D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD241BD1BEB2D6900D2D5CF /* Project object */;
+}
